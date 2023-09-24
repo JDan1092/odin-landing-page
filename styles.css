@@ -90,3 +90,33 @@ h1{
     text-decoration: none;
     border-radius: 7px;
 }
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.blue-boxes-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.image-info{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #3882f6;
+  border-radius: 12px;
+}
+
+.second-p{
+    text-align: center;
+    font-size: 18px;
+}
